@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexora Techno | Next Page</title>
+  <style>
+    :root {
+      --black:#050505;
+      --gold:#FFD700;
+      --white:#f5f5f0;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:linear-gradient(135deg, var(--black), #121212);
+      color:var(--white);
+      font-family:Arial, sans-serif;
+      text-align:center;
+      padding:24px;
+    }
+    .card {
+      max-width:560px;
+      width:100%;
+      padding:36px;
+      border:1px solid rgba(255,215,0,0.2);
+      border-radius:20px;
+      background:rgba(255,255,255,0.04);
+      box-shadow:0 0 30px rgba(255,215,0,0.12);
+    }
+    h1 {
+      font-size:2rem;
+      margin-bottom:14px;
+      color:var(--gold);
+    }
+    p {
+      line-height:1.7;
+      color:rgba(245,245,240,0.8);
+      margin-bottom:24px;
+    }
+    .btn {
+      display:inline-block;
+      padding:14px 24px;
+      border-radius:999px;
+      background:linear-gradient(120deg, #fff2b8, var(--gold));
+      color:#050505;
+      font-weight:700;
+      text-decoration:none;
+      transition:transform .2s ease;
+    }
+    .btn:hover { transform:translateY(-2px); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome to the Next Page</h1>
+    <p>Nexora Techno is ready to continue your journey. Tap below to open the Google Play listing and download the app.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.varavuselavu" target="_blank" rel="noopener">Download on Google Play</a>
+  </div>
+</body>
+</html>
